@@ -20,15 +20,22 @@ public class Text_Justification_68 {
 
     public static List<String> fullJustify(String[] words, int maxWidth) {
 
-        List<String> aaa = new ArrayList<>();
+
+
+
+
+        List<String> result = new ArrayList<>();
         for(int index = 0; index < words.length; index ++) {
-//            System.out.println(words[index] + ", length= " + words[index].length());
-//            resultMap.put(words[index], words[index].length());
-            aaa.add(words[index] );
+            if (index == 0) {
+                result.add("\n" + "   \"" + words[index] + "\"");
+            } else if (index == words.length - 1) {
+                result.add("\n" + "   \"" +  words[index] + "\"\n");
+            } else {
+                result.add("\n" + "   \"" +  words[index] + "\"");
+            }
         }
 
-
-
-        return aaa;
+        return result;
     }
+
 }
