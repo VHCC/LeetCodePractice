@@ -1,7 +1,8 @@
 # LeetCodePractice
 LeetCode Practice with Java and Intellij IDE
 
-|NO.|Title|Solution|Difficulty|Tag|
-|---|-----|--------|----------|---|
-|68|[Text Justification](https://leetcode.com/problems/text-justification/)|[Java](src/Text_Justification_68.java)|Hard||
-|709|[To Low Case](https://leetcode.com/problems/to-lower-case/)|[Java](src/ToLowerCase_709.java)|Easy||
+|NO.|Title|Solution|Note|Difficulty|Tag|
+|---|-----|--------|----|----------|---|
+|001|[Two Sum](https://leetcode.com/problems/text-justification/)||[Note](Note/001.%20Two%20Sum)|Hard||
+|068|[Text Justification](https://leetcode.com/problems/text-justification/)|[Java](src/Text_Justification_68.java)|[Note](Note/068.%20Text%20Justification)|Hard||
+|709|[To Low Case](https://leetcode.com/problems/to-lower-case/)|[Java](src/ToLowerCase_709.java)|[Note](Note/709.%20To%20Lower%20Case)|Easy||
