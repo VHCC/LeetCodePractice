@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class Two_Sum_1 {
 
@@ -12,6 +14,7 @@ public class Two_Sum_1 {
         ints[2] = 11;
         ints[3] = 15;
         twoSum(ints, 22);
+//        solutionMap(ints, 22);
     }
 
     public static void twoSum(int[] nums, int target) {
@@ -37,5 +40,22 @@ public class Two_Sum_1 {
 
         }
         System.out.println(ans);
+    }
+
+    // use HashMap
+    public static int[] solutionMap(int[] nums, int target) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i++) {
+            int complement = target - nums[i];
+            if (map.containsKey(complement)) {
+                System.out.println(complement);
+                System.out.println(map);
+                System.out.println(i);
+                return new int[] { map.get(complement), i };
+            }
+            map.put(nums[i], i);
+        }
+
+        throw new IllegalArgumentException("No two sum solution");
     }
 }
