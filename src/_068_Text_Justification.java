@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Text_Justification_68 {
+public class _068_Text_Justification {
 
     public static void main(String[] arg0) {
 

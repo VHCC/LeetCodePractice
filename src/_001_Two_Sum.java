@@ -3,7 +3,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class Two_Sum_1 {
+public class _001_Two_Sum {
 
     public static void main(String[] arg0) {
 
