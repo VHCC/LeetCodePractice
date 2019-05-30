@@ -8,5 +8,6 @@ LeetCode Practice with Java and Intellij IDE
 |007|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java](src/_007_Reverse_Integer.java)|[Note](Note/007.%20Reverse%20Integer)|Easy||
 |021|[Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)|[Java](src/_021_Merge_Two_Sorted_Lists.java)|[Note](Note/021.%20Merge%20Two%20Sorted%20Lists)|Easy||
 |027|[Remove Element](https://leetcode.com/problems/reverse-integer/)|[Java](src/_027_Remove_Element.java)|[Note](Note/027.%20Remove%20Element)|Easy||
+|066|[Plus One](https://leetcode.com/problems/plus-one/)|[Java](src/_066_Plus_One.java)|[Note](Note/066.%20Plus%20One)|Easy||
 |068|[Text Justification](https://leetcode.com/problems/text-justification/)|[Java](src/_068_Text_Justification.java)|[Note](Note/068.%20Text%20Justification)|Hard||
 |709|[To Low Case](https://leetcode.com/problems/to-lower-case/)|[Java](src/_709_ToLowerCase.java)|[Note](Note/709.%20To%20Lower%20Case)|Easy||
