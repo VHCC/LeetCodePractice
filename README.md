@@ -17,3 +17,4 @@ update 2021/10/20
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](src/_300_Longest_Increasing_Subsequence)|[Note](Note/300.%20Longest%20Increasing%20Subsequence)|Medium||
 |709|[To Low Case](https://leetcode.com/problems/to-lower-case/)|[Java](src/_709_ToLowerCase.java)|[Note](Note/709.%20To%20Lower%20Case)|Easy||
 |916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[Java](src/_916_Word_Subsets.java)|[Note](Note/916.%20Word%20Subsets)|Medium||2021/10/20|
+|1302|[Word Subsets](https://leetcode.com/problems/deepest-leaves-sum/)|[Java](src/_1302_Deepest_Leaves_Sum)|[Note](Note/1302.%20Deepest%20Leaves%20Sum)|Medium|`Tree`|2021/10/21|
