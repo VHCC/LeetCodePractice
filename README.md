@@ -1,6 +1,8 @@
 # LeetCodePractice
 LeetCode Practice with Java and Intellij IDE
 
+update 2021/10/20
+
 |NO.|Title|Solution|Note|Difficulty|Tag|
 |---|-----|--------|----|----------|---|
 |001|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](src/_001_Two_Sum.java)|[Note](Note/001.%20Two%20Sum)|Easy||
@@ -12,3 +14,4 @@ LeetCode Practice with Java and Intellij IDE
 |068|[Text Justification](https://leetcode.com/problems/text-justification/)|[Java](src/_068_Text_Justification.java)|[Note](Note/068.%20Text%20Justification)|Hard||
 |300|[Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)|[Java](src/_300_Longest_Increasing_Subsequence)|[Note](Note/300.%20Longest%20Increasing%20Subsequence)|Medium||
 |709|[To Low Case](https://leetcode.com/problems/to-lower-case/)|[Java](src/_709_ToLowerCase.java)|[Note](Note/709.%20To%20Lower%20Case)|Easy||
+|916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[Java](src/_916_Word_Subsets.java)|[Note](Note/916.%20Word%20Subsets)|Medium||
