@@ -26,14 +26,34 @@ public class _380_Insert_Delete_GetRandom_O_1 {
 //        System.out.println(randomizedSet.insert(2));
 //        System.out.println(randomizedSet.getRandom());
 
+//        System.out.println(randomizedSet.insert(0));
+//        System.out.println(randomizedSet.insert(1));
+//        System.out.println(randomizedSet.remove(0));
+//        System.out.println(randomizedSet.insert(2));
+//        System.out.println(randomizedSet.remove(1));
+//        System.out.println(randomizedSet.getRandom());
+
+
+//          System.out.println(randomizedSet.remove(0));
+//          System.out.println(randomizedSet.remove(0));
+//          System.out.println(randomizedSet.insert(0));
+//          System.out.println(randomizedSet.getRandom());
+//          System.out.println(randomizedSet.remove(0));
+//          System.out.println(randomizedSet.insert(0));
+
         System.out.println(randomizedSet.insert(0));
+        System.out.println(randomizedSet.insert(2));
+        System.out.println(randomizedSet.insert(1));
+        System.out.println(randomizedSet.insert(1));
         System.out.println(randomizedSet.insert(1));
         System.out.println(randomizedSet.remove(0));
-        System.out.println(randomizedSet.insert(2));
-        System.out.println(randomizedSet.remove(1));
+        System.out.println(randomizedSet.insert(0));
         System.out.println(randomizedSet.getRandom());
-
+        System.out.println(randomizedSet.insert(1));
+        System.out.println(randomizedSet.remove(2));
     }
+
+
 
     public static class RandomizedSetB {
         HashMap<Integer, Integer> map;
@@ -42,7 +62,7 @@ public class _380_Insert_Delete_GetRandom_O_1 {
 
         public RandomizedSetB() {
             map = new HashMap<>();
-            intArray = new ArrayList<Integer>();
+            intArray = new ArrayList<>();
             rnd = new Random();
         }
 
@@ -55,8 +75,14 @@ public class _380_Insert_Delete_GetRandom_O_1 {
 
         public boolean remove(int val) {
             if (!map.containsKey(val)) return false;
-            intArray.remove((Object)map.get(val));
-            map.remove(val);
+
+            int removedIndex = map.remove(val);
+            int lastValue = intArray.remove(intArray.size() - 1);
+
+            if (val != lastValue) {
+                intArray.set(removedIndex, lastValue);
+                map.put(lastValue, removedIndex);
+            }
             return true;
         }
 

@@ -3,6 +3,7 @@
 <h4>Notes</h4>
 
 1. ArrayList<Integer> 有index問題。
+2. 排序法問題。
 
 
 
