@@ -1,8 +1,6 @@
 # LeetCodePractice
 LeetCode Practice with Java and Intellij IDE
 
-update 2021/10/20
-
 |NO.|Title|Solution|Note|Difficulty|Tag|Date|
 |---|-----|--------|----|----------|---|----|
 |001|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](src/_001_Two_Sum.java)|[Note](Note/001.%20Two%20Sum)|Easy||
