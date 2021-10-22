@@ -19,4 +19,5 @@ LeetCode Practice with Java and Intellij IDE
 |567|[567. Permutation in String](https://leetcode.com/problems/permutation-in-string/)|[Java](src/_567_Permutation_in_String.java)|[Note](Note/567.%20Permutation%20in%20String)|Medium|`HashMap`, `Array`|2021/10/22|
 |709|[To Low Case](https://leetcode.com/problems/to-lower-case/)|[Java](src/_709_ToLowerCase.java)|[Note](Note/709.%20To%20Lower%20Case)|Easy||
 |916|[Word Subsets](https://leetcode.com/problems/word-subsets/)|[Java](src/_916_Word_Subsets.java)|[Note](Note/916.%20Word%20Subsets)|Medium||2021/10/20|
+|932|[Beautiful Array](https://leetcode.com/problems/beautiful-array/)|[Java](src/_932_Beautiful_Array.java)|[Note](Note/932.%20Beautiful%20Array)|Medium|`Array`, `Math`|2021/10/22|
 |1302|[Deepest Leaves Sum](https://leetcode.com/problems/deepest-leaves-sum/)|[Java](src/_1302_Deepest_Leaves_Sum)|[Note](Note/1302.%20Deepest%20Leaves%20Sum)|Medium|`Tree`|2021/10/21|
