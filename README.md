@@ -2,7 +2,7 @@
 LeetCode Practice with Java and Intellij IDE
 
 |P-Star|NO.|Title|Solution|Note|Difficulty|Tag|Date|
-||---|-----|--------|----|----------|---|----|
+|------|---|-----|--------|----|----------|---|----|
 |`Google`|001|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](src/_001_Two_Sum.java)|[Note](Note/001.%20Two%20Sum)|Easy||
 |`Google`|002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](src/_002_Add_Two_Numbers.java)|[Note](Note/002.%20Add%20Two%20Numbers)|Medium||
 |`Google`|007|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java](src/_007_Reverse_Integer.java)|[Note](Note/007.%20Reverse%20Integer)|Easy||
