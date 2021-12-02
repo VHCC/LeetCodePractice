@@ -55,7 +55,7 @@ public class _402_Remove_K_Digits {
 //            String a = ans.substring(0 + 1);
 //            String b = ans.substring(0, 1) + ans.substring(2, ans.length());
 //
-//            long d = Math.min(Long.valueOf(a), Long.valueOf(b));
+//            long d = Math.minAns(Long.valueOf(a), Long.valueOf(b));
             ans = subCheck(ans);
 //            System.out.println("a:> " + a + ", b:> " + b + ", ans:> " + ans);
         }
@@ -81,7 +81,7 @@ public class _402_Remove_K_Digits {
             if (!num.substring(i, i + 1).equals(num.substring(i + 1, i + 2))) {
                 String a = num.substring(0, i) + num.substring(i + 1, num.length());
                 String b = num.substring(0, i + 1) + num.substring(i + 2, num.length());
-//                long d = Math.min(Long.valueOf(a), Long.valueOf(b));
+//                long d = Math.minAns(Long.valueOf(a), Long.valueOf(b));
                 for (int j = 0; j< a.length(); j++) {
                     if (a.charAt(j) < b.charAt(j)) {
                         System.out.println("i:> " + i + ", a:> " + a + ", b:> " + b + ", ans:> " + a);

@@ -6,16 +6,46 @@ import java.util.Map;
 public class _001_Two_Sum {
 
     public static void main(String[] arg0) {
+        int target = 6;
+        int[] input = new int[]{3,3};
 
-        //        List<String> words = new ArrayList<String>() ;
-        int[] ints = new int[7];
-        ints[0] = 2;
-        ints[1] = 7;
-        ints[2] = 11;
-        ints[3] = 15;
-        twoSum(ints, 22);
-//        solutionMap(ints, 22);
+
+        for (int i: twoSum20211104(input, target)) {
+
+            System.out.print(i + ", ");
+        }
     }
+
+    public static int[] twoSum20211104(int[] nums, int target) {
+
+        List<Integer> intArray = new ArrayList<>();
+        for (int i: nums) {
+            intArray.add(i);
+        }
+
+        System.out.println(intArray);
+
+        int ans = 0;
+        int ans2 = 0;
+        int temp = 0;
+        for (int index = 0; index < intArray.size(); index ++) {
+            temp = intArray.get(index);
+            intArray.set(index, Integer.MAX_VALUE);
+            int res = target - nums[index];
+            int checkExit = -1;
+            System.out.println("res:> " + res);
+            checkExit = intArray.indexOf(res);
+            if (checkExit > 0) {
+                ans = index;
+                ans2 = checkExit;
+                System.out.println(index);
+            }
+            intArray.set(index, temp);
+        }
+        return new int[]{ans,ans2};
+    }
+
+
 
     public static void twoSum(int[] nums, int target) {
         List<Integer> ans = new ArrayList<Integer>();

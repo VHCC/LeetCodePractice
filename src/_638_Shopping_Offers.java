@@ -23,7 +23,7 @@ public class _638_Shopping_Offers {
         for (int i = 0; i < needs.size(); i++) {
             cost += needs.get(i) * price.get(i);
         }
-        System.out.println("cost:> " + cost + ", map:> " + map + ", needs:> " + needs);
+        System.out.println("cost:> " + cost + ", valueMap:> " + map + ", needs:> " + needs);
         // 如果总花费为0，返回0。
         if (cost == 0) return 0;
         // 记忆数组中包含当前购物清单的最优花费，直接返回该值

@@ -6,6 +6,6 @@ public class _980_Unique_Paths_III {
     }
 
     public static int uniquePathsIII(int[][] grid) {
-
+        return 0;
     }
 }

@@ -4,15 +4,15 @@ public class _002_Add_Two_Numbers {
 
         ListNode a1 = new ListNode(2);
         a1.next = new ListNode(4);
-        a1.next.next = new ListNode(7);
-        a1.next.next.next = new ListNode(9);
-        a1.next.next.next.next = new ListNode(3);
+        a1.next.next = new ListNode(3);
+//        a1.next.next.next = new ListNode(9);
+//        a1.next.next.next.next = new ListNode(3);
 
         ListNode a2 = new ListNode(5);
         a2.next = new ListNode(6);
         a2.next.next = new ListNode(4);
-        a2.next.next.next = new ListNode(9);
-
+//        a2.next.next.next = new ListNode(9);
+//
         addTwoNumbers(a1, a2);
     }
 

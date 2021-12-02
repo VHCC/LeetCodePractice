@@ -60,7 +60,7 @@ public class _809_Expressive_Words {
                 builder.append(ch);
             }
         }
-        System.out.println("S:> " + S + ", :> " + builder.toString() + ", map:> " + map);
+        System.out.println("S:> " + S + ", :> " + builder.toString() + ", valueMap:> " + map);
         return builder.toString();
     }
 

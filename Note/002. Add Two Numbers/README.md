@@ -1,5 +1,5 @@
 ---
-title: Add Two Numbers
+title: 002. Add Two Numbers
 hidden: false
 toc: true
 toc_number: true

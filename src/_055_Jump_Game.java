@@ -2,11 +2,11 @@ public class _055_Jump_Game {
     public static void main(String[] args) {
 
 //        int [] input = new int[]{1,1,0};
-        int[] input = new int[]{0, 1};
-//        int [] input = new int[]{1,2};
+//        int[] input = new int[]{0, 1};
+//        int[] input = new int[]{1, 2};
 //        int[] input = new int[]{2, 3, 1, 1, 0, 4};
 //        int [] input = new int[]{2,5,0,0};
-//        int [] input = new int[]{3,2,1,0,4,3,2,1,0,4,3,2,1,0,4,3,2,1,0,4};
+        int [] input = new int[]{3,2,1,0,4,3,2,1,0,4,3,2,1,0,4,3,2,1,0,4};
 
         System.out.println(canJumpGreat(input));
     }
@@ -14,6 +14,7 @@ public class _055_Jump_Game {
     public static boolean canJumpGreat(int[] nums) {
         int reachable = 0;
         for (int i = 0; i < nums.length; ++i) {
+            System.out.println("i:> " + i);
             if (i > reachable) return false;
             reachable = Math.max(reachable, i + nums[i]); // 子問題：能到達的最遠距離
         }
