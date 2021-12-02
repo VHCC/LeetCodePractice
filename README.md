@@ -1,9 +1,15 @@
+---
+title: ''
+date: '2020/08/20 00:00:00'
+hidden: true
+---
+
 # LeetCodePractice
 LeetCode Practice with Java and Intellij IDE
 
 |counts|NO.|Title|Solution|Note|Difficulty|Tag|Date|
 |------|---|-----|--------|----|----------|---|----|
-||001|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](src/_001_Two_Sum.java)|[Note](Note/001.%20Two%20Sum)|Easy||
+|1|001|[Two Sum](https://leetcode.com/problems/two-sum/)|[Java](src/_001_Two_Sum.java)|[Note](Note/001.%20Two%20Sum)|Easy||
 ||002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/)|[Java](src/_002_Add_Two_Numbers.java)|[Note](Note/002.%20Add%20Two%20Numbers)|Medium||
 ||007|[Reverse Integer](https://leetcode.com/problems/reverse-integer/)|[Java](src/_007_Reverse_Integer.java)|[Note](Note/007.%20Reverse%20Integer)|Easy||
 ||015|[3Sum](https://leetcode.com/problems/3sum)|||Medium|`Two Pointer`, `Array`, `Sorting`|2021/10/28|
@@ -19,6 +25,7 @@ LeetCode Practice with Java and Intellij IDE
 ||070|[Climbing Stairs](https://leetcode.com/problems/climbing-stairs)|||Eazy|`DP`|2021/10/27|
 ||075|[Sort Colors](https://leetcode.com/problems/sort-colors)|||Medium|`Two Pointer`, `Sorting`|2021/10/28|
 ||113|[Path Sum II](https://leetcode.com/problems/path-sum-ii)|||Medium|`Tree`|2021/10/24|
+||130|[Surrounded Regions](https://leetcode.com/problems/surrounded-regions/)|||Medium|`Matrix`|2021/11/01|
 ||134|[Gas Station](https://leetcode.com/problems/gas-station/)|[Java](src/_134_Gas_Station.java)|none|Medium||2021/10/20|
 ||151|[Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/)|[Java](src/_151_Reverse_Words_in_a_String.java)|[Note](Note/151.%20Reverse%20Words%20in%20a%20String)|Medium||2021/10/21|
 ||165|[Compare Version Numbers](https://leetcode.com/problems/compare-version-numbers/)|[Java](src/_165_Compare_Version_Numbers.java)|none|Medium|`String`, `Two Pointer`|2021/10/23|
