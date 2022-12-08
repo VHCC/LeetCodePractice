@@ -1,40 +1,50 @@
 import java.util.Arrays;
 
-public class _704_Binary_Search {
+public class _35_Search_Insert_Position {
 
     public static void main(String[] args) {
         int[] input = new int[]{1, 3, 5, 7, 9, 11, 13, 19, 55, 69};
-        int target = 7;
+        int target = 8;
 
         System.out.println(search20221208(input, target));
     }
 
 
     static public int search20221208(int[] nums, int target) { // Time, beats 100%
-
         int left = 0;
         int right = nums.length - 1;
-        if (nums[left] == target) {
-            return left;
+        int middle = (left + right) /2;
+
+        if (nums[left] == target) { // 剛好是第一個
+            return 0;
         }
 
-        if (nums[right] == target) {
+        if (nums[right] == target) { //剛好是最後一個
             return right;
         }
 
-        int middle = (left + right) /2;
+        if (target < nums[left]) { // 比第一個還小
+            return 0;
+        }
+
+        if (target > nums[right]) { // 比最後一個還大
+            return right +1;
+        }
 
         while (nums[middle] != target) {
-            if (target > nums[middle]) { // 目標在右邊
+            if (nums[middle] < target) { // 目標在右邊
                 left = middle;
             }
-            if (target < nums[middle]) { // 目標在左邊
+
+            if (nums[middle] > target) { // 目標在左邊
                 right = middle;
             }
+
             middle = (left + right) /2;
             if (middle == left || middle == right) {
-                return -1;
+                return middle + 1;
             }
+
         }
         return middle;
     }
