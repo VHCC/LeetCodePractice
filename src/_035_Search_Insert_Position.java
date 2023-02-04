@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class _35_Search_Insert_Position {
+public class _035_Search_Insert_Position {
 
     public static void main(String[] args) {
         int[] input = new int[]{1, 3, 5, 7, 9, 11, 13, 19, 55, 69};

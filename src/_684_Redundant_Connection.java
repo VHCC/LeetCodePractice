@@ -11,6 +11,6 @@ public class _684_Redundant_Connection {
 
 
     static public int[] findRedundantConnection(int[][] edges) {
-
+        return null;
     }
 }
