@@ -3,6 +3,7 @@ import java.util.Arrays;
 
 /**
  * to search the index
+ * must be sorted array
  */
 
 public class _0_Basic_001_Binary_Search {
